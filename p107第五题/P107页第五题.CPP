@@ -5,22 +5,22 @@ int main()
 	
 	int number;
 	double square;
-	int a;
+	int asqrt;
 	printf("输入一个小于1000的正数:");
 	scanf("%d",&number);
 	if(number>=0&&number<=1000)
 	{
 		square=sqrt(number);
-		a=(int)square;
-		printf("%d的平方根为%d\n",number,a);
+		asqrt=(int)square;
+		printf("%d的平方根为%d\n",number,asqrt);
 	}
 	else
 	{
 		printf("请重新输入一个小于1000的正数:");
 		scanf("%d",&number);
 		square=sqrt(number);
-		a=(int)square;
-		printf("%d的平方根为%d\n",number,a);
+	    asqrt=(int)square;
+		printf("%d的平方根为%d\n",number,asqrt);
 	}
 	return 0;
 }

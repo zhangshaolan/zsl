@@ -3,7 +3,7 @@ int main()
 {
 	int x;
 	int y;
-	printf("输入x的值:");
+	printf("请输入x的值:");
 	scanf("%d",&x);
 	if(x<1)
 	{

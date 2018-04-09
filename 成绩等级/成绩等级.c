@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
-	int chengji;
+	int chengJi;
 	printf("ÇëÊäÈë³É¼¨:");
-	scanf("%d",&chengji);
-	if(chengji>=90)
+	scanf("%d",&chengJi);
+	if(chengJi>=90)
 	{
 		printf("A");
 	}
-	else if(chengji>=80)
+	else if(chengJi>=80)
 	{
 		printf("B");
 	}
-	else if(chengji>=70)
+	else if(chengJi>=70)
 	{
 		printf("C");
 	}
-	else if(chengji>=60)
+	else if(chengJi>=60)
 	{
 		printf("D");
 	}
