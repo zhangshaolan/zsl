@@ -19,7 +19,7 @@ int main()
 		printf("请重新输入一个小于1000的正数:");
 		scanf("%d",&number);
 		square=sqrt(number);
-	    a=(int)square;
+		a=(int)square;
 		printf("%d的平方根为%d\n",number,a);
 	}
 	return 0;
